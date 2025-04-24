@@ -123,7 +123,7 @@ main().catch(console.error);
 ## ✨ Features
 
 - Solidity contract compilation
-- Contract deployment to Ethereum network (Local, Testnet, Mainnet)
+- Contract deployment to supported networks by Infura (Local, Testnet, Mainnet)
 - Interaction with deployed contracts
 - Support for all Solidity contract functions
 - Gas price management for mainnet transactions

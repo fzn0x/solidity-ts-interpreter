@@ -42,7 +42,7 @@ async function main() {
     console.log(`https://sepolia.etherscan.io/address/${address}`);
   } else {
     console.log(`Check if you are running on localhost: http://localhost:8545/#/address/${address} or use 
-curl 'http://localhost:8545/#/address/0xa513E6E4b8f2a923D98304ec87F64353C4D5C85' --data-raw '{"jsonrpc":"2.0","method":"net_listening","params":[],"id":1}'`);
+curl 'http://localhost:8545/#/address/${address}' --data-raw '{"jsonrpc":"2.0","method":"net_listening","params":[],"id":1}'`);
     console.log(`(For testnet deployment, run: npm run deploy:sepolia)`);
     console.log(`(For mainnet deployment, run: npm run deploy:mainnet)`);
   }
